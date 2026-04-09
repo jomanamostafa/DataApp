@@ -3,6 +3,9 @@
 > ✅ No MySQL. No database setup. No migrations. Just upload a CSV and go.
 
 ---
+## 🎥 Demo Preview
+
+![DataApp Demo](gifpreview.gif)
 
 ## 🚀 Start in 2 Steps
 
