@@ -5,7 +5,7 @@
 ---
 ## 🎥 Demo Preview
 
-![DataApp Demo](gifpreview.gif)
+![DataApp Demo](demo.gif)
 
 ## 🚀 Start in 2 Steps
 
