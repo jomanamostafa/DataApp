@@ -1,0 +1,10 @@
+flask
+flask-login
+flask-wtf
+flask-bcrypt
+python-dotenv
+pandas
+matplotlib
+plotly
+scipy
+pytest

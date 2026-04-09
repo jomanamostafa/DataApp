@@ -1,0 +1,129 @@
+2026-04-09 21:59:45,431 [INFO] werkzeug — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-09 21:59:45,431 [INFO] werkzeug — [33mPress CTRL+C to quit[0m
+2026-04-09 21:59:45,433 [INFO] werkzeug —  * Restarting with stat
+2026-04-09 21:59:47,464 [WARNING] werkzeug —  * Debugger is active!
+2026-04-09 21:59:47,467 [INFO] werkzeug —  * Debugger PIN: 775-252-255
+2026-04-09 21:59:54,980 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 21:59:54] "[32mGET / HTTP/1.1[0m" 302 -
+2026-04-09 21:59:55,045 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 21:59:55] "GET /login HTTP/1.1" 200 -
+2026-04-09 21:59:58,945 [WARNING] __main__ — Bad login: user
+2026-04-09 21:59:58,949 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 21:59:58] "POST /login HTTP/1.1" 200 -
+2026-04-09 22:00:01,052 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:00:01] "GET /register HTTP/1.1" 200 -
+2026-04-09 22:00:06,612 [INFO] __main__ — Registered: user
+2026-04-09 22:00:06,619 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:00:06] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-04-09 22:00:06,658 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:00:06] "GET /login HTTP/1.1" 200 -
+2026-04-09 22:00:12,211 [INFO] __main__ — Login: user
+2026-04-09 22:00:12,213 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:00:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-09 22:00:12,289 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:00:12] "GET /dashboard HTTP/1.1" 200 -
+2026-04-09 22:01:00,813 [INFO] __main__ — Upload: movies.csv by user
+2026-04-09 22:01:03,473 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:01:03] "POST /dashboard HTTP/1.1" 200 -
+2026-04-09 22:01:23,250 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:01:23] "POST /dashboard HTTP/1.1" 200 -
+2026-04-09 22:01:34,647 [INFO] __main__ — Upload: movies.csv by user
+2026-04-09 22:01:35,117 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:01:35] "POST /dashboard HTTP/1.1" 200 -
+2026-04-09 22:02:36,011 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:02:36] "GET /dashboard HTTP/1.1" 200 -
+2026-04-09 22:02:48,935 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:02:48] "[32mGET / HTTP/1.1[0m" 302 -
+2026-04-09 22:02:48,952 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:02:48] "GET /dashboard HTTP/1.1" 200 -
+2026-04-09 22:04:10,014 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:04:10] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-09 22:04:10,032 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:04:10] "GET /login HTTP/1.1" 200 -
+2026-04-09 22:04:26,794 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:04:26] "GET /register HTTP/1.1" 200 -
+2026-04-09 22:05:14,018 [INFO] __main__ — Registered: user2
+2026-04-09 22:05:14,019 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:05:14] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-04-09 22:05:14,032 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:05:14] "GET /login HTTP/1.1" 200 -
+2026-04-09 22:05:22,381 [INFO] __main__ — Login: user2
+2026-04-09 22:05:22,383 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:05:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-09 22:05:22,398 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:05:22] "GET /dashboard HTTP/1.1" 200 -
+2026-04-09 22:05:27,735 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:05:27] "POST /dashboard HTTP/1.1" 200 -
+2026-04-09 22:05:30,400 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:05:30] "POST /dashboard HTTP/1.1" 200 -
+2026-04-09 22:05:41,468 [INFO] __main__ — Upload: customers.csv by user2
+2026-04-09 22:05:42,453 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:05:42] "POST /dashboard HTTP/1.1" 200 -
+2026-04-09 22:05:59,863 [INFO] __main__ — Upload: movies.csv by user2
+2026-04-09 22:06:00,370 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:06:00] "POST /dashboard HTTP/1.1" 200 -
+2026-04-09 22:06:16,493 [INFO] __main__ — Upload: movies.csv by user2
+2026-04-09 22:06:17,004 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:06:17] "POST /dashboard HTTP/1.1" 200 -
+2026-04-09 22:06:55,568 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:06:55] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-09 22:06:55,582 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:06:55] "GET /login HTTP/1.1" 200 -
+2026-04-09 22:06:59,363 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:06:59] "GET /register HTTP/1.1" 200 -
+2026-04-09 22:07:08,314 [INFO] __main__ — Registered: user3
+2026-04-09 22:07:08,316 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:07:08] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-04-09 22:07:08,327 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:07:08] "GET /login HTTP/1.1" 200 -
+2026-04-09 22:07:14,208 [INFO] __main__ — Login: user3
+2026-04-09 22:07:14,209 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:07:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-09 22:07:14,222 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:07:14] "GET /dashboard HTTP/1.1" 200 -
+2026-04-09 22:07:29,312 [INFO] __main__ — Upload: movies.csv by user3
+2026-04-09 22:07:31,302 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:07:31] "POST /dashboard HTTP/1.1" 200 -
+2026-04-09 22:08:13,799 [INFO] __main__ — Upload: customers.csv by user3
+2026-04-09 22:08:14,209 [ERROR] __main__ — Error customers.csv: Expected unique column names, got:
+- 'clientnum' 2 times
+2026-04-09 22:08:14,219 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:08:14] "POST /dashboard HTTP/1.1" 200 -
+2026-04-09 22:08:33,262 [INFO] __main__ — Upload: movies.csv by user3
+2026-04-09 22:08:33,948 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:08:33] "POST /dashboard HTTP/1.1" 200 -
+2026-04-09 22:10:56,638 [INFO] werkzeug —  * Detected change in 'c:\\Users\\Jomana\\Downloads\\data_app (2)\\DataApp\\utils.py', reloading
+2026-04-09 22:10:57,103 [INFO] werkzeug —  * Restarting with stat
+2026-04-09 22:10:59,568 [WARNING] werkzeug —  * Debugger is active!
+2026-04-09 22:10:59,571 [INFO] werkzeug —  * Debugger PIN: 775-252-255
+2026-04-09 22:11:06,631 [INFO] werkzeug —  * Detected change in 'c:\\Users\\Jomana\\Downloads\\data_app (2)\\DataApp\\utils.py', reloading
+2026-04-09 22:11:06,983 [INFO] werkzeug —  * Restarting with stat
+2026-04-09 22:11:09,207 [WARNING] werkzeug —  * Debugger is active!
+2026-04-09 22:11:09,210 [INFO] werkzeug —  * Debugger PIN: 775-252-255
+2026-04-09 22:11:11,234 [INFO] werkzeug —  * Detected change in 'c:\\Users\\Jomana\\Downloads\\data_app (2)\\DataApp\\utils.py', reloading
+2026-04-09 22:11:11,549 [INFO] werkzeug —  * Restarting with stat
+2026-04-09 22:11:13,757 [WARNING] werkzeug —  * Debugger is active!
+2026-04-09 22:11:13,760 [INFO] werkzeug —  * Debugger PIN: 775-252-255
+2026-04-09 22:11:15,786 [INFO] werkzeug —  * Detected change in 'c:\\Users\\Jomana\\Downloads\\data_app (2)\\DataApp\\utils.py', reloading
+2026-04-09 22:11:16,176 [INFO] werkzeug —  * Restarting with stat
+2026-04-09 22:11:18,410 [WARNING] werkzeug —  * Debugger is active!
+2026-04-09 22:11:18,413 [INFO] werkzeug —  * Debugger PIN: 775-252-255
+2026-04-09 22:11:19,437 [INFO] werkzeug —  * Detected change in 'c:\\Users\\Jomana\\Downloads\\data_app (2)\\DataApp\\utils.py', reloading
+2026-04-09 22:11:19,749 [INFO] werkzeug —  * Restarting with stat
+2026-04-09 22:11:21,961 [WARNING] werkzeug —  * Debugger is active!
+2026-04-09 22:11:21,964 [INFO] werkzeug —  * Debugger PIN: 775-252-255
+2026-04-09 22:11:22,981 [INFO] werkzeug —  * Detected change in 'c:\\Users\\Jomana\\Downloads\\data_app (2)\\DataApp\\utils.py', reloading
+2026-04-09 22:11:23,288 [INFO] werkzeug —  * Restarting with stat
+2026-04-09 22:11:25,576 [WARNING] werkzeug —  * Debugger is active!
+2026-04-09 22:11:25,578 [INFO] werkzeug —  * Debugger PIN: 775-252-255
+2026-04-09 22:11:26,599 [INFO] werkzeug —  * Detected change in 'c:\\Users\\Jomana\\Downloads\\data_app (2)\\DataApp\\utils.py', reloading
+2026-04-09 22:11:27,073 [INFO] werkzeug —  * Restarting with stat
+2026-04-09 22:11:29,238 [WARNING] werkzeug —  * Debugger is active!
+2026-04-09 22:11:29,241 [INFO] werkzeug —  * Debugger PIN: 775-252-255
+2026-04-09 22:11:30,267 [INFO] werkzeug —  * Detected change in 'c:\\Users\\Jomana\\Downloads\\data_app (2)\\DataApp\\utils.py', reloading
+2026-04-09 22:11:30,738 [INFO] werkzeug —  * Restarting with stat
+2026-04-09 22:11:32,930 [WARNING] werkzeug —  * Debugger is active!
+2026-04-09 22:11:32,933 [INFO] werkzeug —  * Debugger PIN: 775-252-255
+2026-04-09 22:12:04,112 [INFO] werkzeug —  * Detected change in 'c:\\Users\\Jomana\\Downloads\\data_app (2)\\DataApp\\utils.py', reloading
+2026-04-09 22:12:04,401 [INFO] werkzeug —  * Restarting with stat
+2026-04-09 22:12:06,640 [WARNING] werkzeug —  * Debugger is active!
+2026-04-09 22:12:06,643 [INFO] werkzeug —  * Debugger PIN: 775-252-255
+2026-04-09 22:12:10,679 [INFO] werkzeug —  * Detected change in 'c:\\Users\\Jomana\\Downloads\\data_app (2)\\DataApp\\utils.py', reloading
+2026-04-09 22:12:10,952 [INFO] werkzeug —  * Restarting with stat
+2026-04-09 22:12:13,032 [WARNING] werkzeug —  * Debugger is active!
+2026-04-09 22:12:13,035 [INFO] werkzeug —  * Debugger PIN: 775-252-255
+2026-04-09 22:12:18,297 [INFO] werkzeug — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-09 22:12:18,297 [INFO] werkzeug — [33mPress CTRL+C to quit[0m
+2026-04-09 22:12:18,299 [INFO] werkzeug —  * Restarting with stat
+2026-04-09 22:12:20,294 [WARNING] werkzeug —  * Debugger is active!
+2026-04-09 22:12:20,297 [INFO] werkzeug —  * Debugger PIN: 775-252-255
+2026-04-09 22:13:14,547 [INFO] werkzeug — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-09 22:13:14,548 [INFO] werkzeug — [33mPress CTRL+C to quit[0m
+2026-04-09 22:13:14,550 [INFO] werkzeug —  * Restarting with stat
+2026-04-09 22:13:16,622 [WARNING] werkzeug —  * Debugger is active!
+2026-04-09 22:13:16,624 [INFO] werkzeug —  * Debugger PIN: 775-252-255
+2026-04-09 22:13:19,788 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:13:19] "[32mGET / HTTP/1.1[0m" 302 -
+2026-04-09 22:13:19,872 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:13:19] "GET /dashboard HTTP/1.1" 200 -
+2026-04-09 22:15:42,098 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:15:42] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-09 22:15:42,115 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:15:42] "GET /login HTTP/1.1" 200 -
+2026-04-09 22:16:09,044 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:16:09] "GET /register HTTP/1.1" 200 -
+2026-04-09 22:16:19,212 [INFO] __main__ — Registered: user4
+2026-04-09 22:16:19,220 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:16:19] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-04-09 22:16:19,230 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:16:19] "GET /login HTTP/1.1" 200 -
+2026-04-09 22:16:24,536 [INFO] __main__ — Login: user4
+2026-04-09 22:16:24,540 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:16:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-09 22:16:24,578 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:16:24] "GET /dashboard HTTP/1.1" 200 -
+2026-04-09 22:16:28,202 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:16:28] "POST /dashboard HTTP/1.1" 200 -
+2026-04-09 22:16:45,643 [INFO] __main__ — Upload: movies.csv by user4
+2026-04-09 22:16:48,460 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:16:48] "POST /dashboard HTTP/1.1" 200 -
+2026-04-09 22:17:34,890 [INFO] __main__ — Upload: customers.csv by user4
+2026-04-09 22:17:36,968 [INFO] __main__ — Upload: customers.csv by user4
+2026-04-09 22:17:37,551 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:17:37] "POST /dashboard HTTP/1.1" 200 -
+2026-04-09 22:17:39,556 [INFO] werkzeug — 127.0.0.1 - - [09/Apr/2026 22:17:39] "POST /dashboard HTTP/1.1" 200 -
